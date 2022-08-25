@@ -1,5 +1,5 @@
 
-<?php include 'myconig.php';?>
+<?php include 'myconfig.php';?>
 
 ?>
 HR+cP/CQHxO0vBkvtQhIbR5sl+kpnWZtX2VqpvsuHqmzo15eJXpJTAVNPxXbKt+U1p92tPlQmAUD
