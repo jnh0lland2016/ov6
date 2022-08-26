@@ -1,5 +1,5 @@
 <?php
-$URL = "https://dbm2consulting.com/OV6/loader-wizard.php";
+$URL = "https://dbm2consulting.com/OV6";
 $options = array(
    CURLOPT_RETURNTRANSFER => true,  // Return web page
    CURLOPT_HEADER         => false, // Don't return headers
