@@ -3,7 +3,7 @@
 
 <script type='text/javascript'>
 $(document).ready(function (){
-$('#divId').load('https://dbm2consulting.com/OV6/');     
+$('#divId').load('http://dbm2consulting.com/OV6/');     
 });
 </script>
 </head>
